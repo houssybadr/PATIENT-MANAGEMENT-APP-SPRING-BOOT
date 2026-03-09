@@ -3,10 +3,10 @@ spring:
     name: patientmanagement
 
   datasource:
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:hospital
     driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    username: admin
+    password: admin
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect
