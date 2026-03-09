@@ -1,5 +1,6 @@
 package com.example.demo.model;
 
+import java.sql.Date;
 import java.util.Collection;
 
 import jakarta.persistence.Entity;
@@ -26,6 +27,7 @@ public class Patient {
     private String nom;
     private String email;
     private boolean malade;
+    private Date dateNaissance;
 
     @OneToMany(
         mappedBy="patient",
